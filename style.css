@@ -1,0 +1,50 @@
+
+#drum-machine {
+    width: 215px;
+    height: 240px;
+    margin: 5px auto;
+    background-color: #e2e2e2;
+    text-align: center;
+    border-radius: 3px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Slabo 27px', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.drum-pad {
+    width: 45px;
+    height: 45px;
+    margin: 12px;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 17px;
+	box-shadow: inset 0px 1px 0px 0px #54a3f7;
+	background: linear-gradient(to bottom, #00a3fa 5%, #0071bd 100%);
+	background-color: #00a3fa;
+	border-radius: 3px;
+	border: 1px solid #0671b8;
+	cursor: url(music-icon.png), pointer;
+	color: #ffffff;
+}
+
+.drum-pad:active, button.active {
+    box-shadow:inset 0px 1px 0px 0px #c5c340;
+	background:linear-gradient(to bottom, #e7d000 5%, #fbff00c2 100%);
+    background-color:#e7d000;
+    border: 2px solid #00558d;
+    color: black;
+}
+
+
+#display {
+    font-size: 17px;
+    font-family: 'Tomorrow', sans-serif;
+}
